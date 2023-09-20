@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF; /* Text color for the header */
+    color: #FFFFFF;
 }
 
 main {
@@ -28,5 +28,5 @@ footer {
     align-items: center;
     position: absolute;
     bottom: 0;
-    color: #FFFFFF; /* Text color for the footer */
+    color: #FFFFFF;
 }
