@@ -25,11 +25,10 @@ header {
 
 .logo {
     background-image: url('../images/logo.png');
-    background-size: contain;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 40px;
-    margin: 10px 0;
+    background-size: contain;
+    height: 100%;
+    margin-left: 20px;
 }
 
 /* Filter styles */
