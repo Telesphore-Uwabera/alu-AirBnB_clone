@@ -24,12 +24,12 @@ header {
 }
 
 .logo {
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    margin-left: 20px;
-}
+        background-image: url('../images/logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        margin-left: 20px;
+    }
 
 /* Filter styles */
 .filters {
@@ -81,13 +81,20 @@ header {
     box-sizing: border-box;
     text-align: center;
 }
+/* Centered "A Suite" */
+.place-listing.centered-place {
+    flex: 0 0 100%; /* Full width for centered element */
+    text-align: center; /* Center the child elements horizontally */
+    margin: 0 auto; /* Center the "A Suite" horizontally */
+    max-width: 100%; /* Allow it to take up the full width */
+}
 
-.centered-place h2 {
+.place-listing.centered-place h2 {
     font-size: 30px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     padding: 10px;
-    margin: 0 auto; /* Center the "Luxury Suite" horizontally */
+    margin: 0 auto; /* Center the "A Suite" horizontally */
     max-width: 300px; /* Limit the width to center it */
 }
 
